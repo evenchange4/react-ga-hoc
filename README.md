@@ -29,8 +29,13 @@ $ npm install react-ga-hoc --save
 - As HOC
 
 ```js
+import ga from 'react-ga';
 import { pageview } from 'react-ga-hoc';
 
+// SDK Setup
+ga.initialize('id');
+
+// Use HOC with Container
 pageview(
   () => <div/>,
 );
