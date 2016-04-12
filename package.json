@@ -57,7 +57,7 @@
     "enzyme": "^2.2.0",
     "eslint": "^2.5.1",
     "jsdom": "^8.1.0",
-    "lint-config-m": "^1.0.5",
+    "lint-config-m": "^1.1.0",
     "nyc": "^6.1.1",
     "react-addons-test-utils": "^0.14.8",
     "react-dom": "^0.14.8"
