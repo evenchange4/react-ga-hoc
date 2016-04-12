@@ -45,7 +45,7 @@ import { pageview } from 'react-ga-hoc';
 ga.initialize('id');
 
 // Use HOC with Container
-pageview(
+pageview(path)(
   () => <div/>,
 );
 ```
@@ -53,7 +53,7 @@ pageview(
 - ES7 decorator
 
 ```js
-@pageview
+@pageview()
 class Container extends React.Component {
   render() {
     return <div/>;
@@ -65,8 +65,8 @@ class Container extends React.Component {
 
 ```js
 pageview(
-  BaseComponent: ReactElementType
-): ReactElementType
+  ?path: string,
+): HigherOrderComponent
 ```
 
 ## Test
