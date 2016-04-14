@@ -12,7 +12,7 @@ test('should contain pageview function', t => {
 });
 
 test('should handle SGA DK setup error', t => {
-  const Container = pageview(() => <div />);
+  const Container = pageview()(() => <div />);
 
   try {
     mount(<Container />);
