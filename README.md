@@ -69,6 +69,10 @@ pageview(
 ): HigherOrderComponent
 ```
 
+| **Arguments** | **Default**  | **Description**            |
+| ------------- | ------------ | -------------------------- |
+| `path`        | current path | path to be sent a pageview |
+
 ## Test
 
 ```
