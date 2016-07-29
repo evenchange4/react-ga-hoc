@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "react-lifecycle-hoc": "^3.0.0",
-    "recompose": "^0.17.0"
+    "recompose": "^0.20.1"
   },
   "devDependencies": {
     "ava": "^0.15.2",
