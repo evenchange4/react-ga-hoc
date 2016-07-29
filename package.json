@@ -60,7 +60,7 @@
     "lint-config-m": "^1.1.0",
     "nyc": "^7.1.0",
     "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.1.0"
   },
   "babel": {
     "presets": [
