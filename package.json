@@ -55,7 +55,7 @@
     "babel-register": "^6.7.2",
     "codecov": "^1.0.1",
     "enzyme": "^2.2.0",
-    "eslint": "^2.13.0",
+    "eslint": "^3.2.1",
     "jsdom": "^9.0.0",
     "lint-config-m": "^1.1.0",
     "nyc": "^7.1.0",
