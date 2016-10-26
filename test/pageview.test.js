@@ -3,15 +3,15 @@ import test from 'ava';
 import { mount } from 'enzyme';
 import { default as reactGAHoc, pageview } from '../src/index';
 
-test('should return a object', t => {
+test('should return a object', (t) => {
   t.is(typeof reactGAHoc, 'object');
 });
 
-test('should contain pageview function', t => {
+test('should contain pageview function', (t) => {
   t.is(typeof reactGAHoc.pageview, 'function');
 });
 
-test('should handle SGA DK setup error', t => {
+test('should handle SGA DK setup error', (t) => {
   const Container = pageview()(() => <div />);
 
   try {

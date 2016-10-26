@@ -30,7 +30,7 @@
 ## Installation
 
 ```console
-$ npm install react-ga-hoc --save
+$ npm install react-ga react-ga-hoc --save
 ```
 
 ## Usage
@@ -76,6 +76,7 @@ pageview(
 ## Test
 
 ```
+$ npm run lint
 $ npm run test:watch
 ```
 
