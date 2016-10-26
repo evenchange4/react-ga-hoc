@@ -1,6 +1,6 @@
 {
   "name": "react-ga-hoc",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Send GA pageview safely with async data.",
   "author": "Michael Hsu",
   "license": "MIT",
