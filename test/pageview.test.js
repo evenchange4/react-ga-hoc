@@ -1,7 +1,7 @@
 import React from 'react';
 import test from 'ava';
 import { mount } from 'enzyme';
-import { default as reactGAHoc, pageview } from '../src/index';
+import reactGAHoc, { pageview } from '../src/index';
 
 test('should return a object', (t) => {
   t.is(typeof reactGAHoc, 'object');
