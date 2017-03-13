@@ -1,7 +1,5 @@
 # react-ga-hoc
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/evenchange4/react-ga-hoc.svg)](https://greenkeeper.io/)
-
 > Send GA pageview safely with async data.
 
 [![Travis][build-badge]][build] [![Codecov Status][codecov-badge]][codecov] [![npm package][npm-badge]][npm] [![npm downloads][npm-downloads]][npm] [![license][license-badge]][license]
@@ -28,6 +26,7 @@
 [devDependency]: https://david-dm.org/evenchange4/react-ga-hoc#info=devDependencies
 [peerDependency-badge]: https://david-dm.org/evenchange4/react-ga-hoc/peer-status.svg?style=flat-square
 [peerDependency]: https://david-dm.org/evenchange4/react-ga-hoc#info=peerDependencies
+[![Greenkeeper badge](https://badges.greenkeeper.io/evenchange4/react-ga-hoc.svg)](https://greenkeeper.io/)
 
 ## Installation
 
